@@ -6,7 +6,7 @@ import logging
 import mlflow
 import mlflow.openai
 from dotenv import load_dotenv
-from openai import AzureOpenAI
+from openai import AzureOpenAI, BadRequestError
 
 warnings.filterwarnings("ignore")
 logging.getLogger("mlflow").setLevel(logging.ERROR)
@@ -47,26 +47,36 @@ QUESTIONS = [
 
 @mlflow.trace
 def ask_helpful_assistant(question: str) -> str:
-    response = client.chat.completions.create(
-        model=AZURE_DEPLOYMENT,
-        messages=[
-            {"role": "system", "content": HELPFUL_ASSISTANT_PROMPT},
-            {"role": "user",   "content": question},
-        ],
-    )
-    return response.choices[0].message.content.strip()
+    try:
+        response = client.chat.completions.create(
+            model=AZURE_DEPLOYMENT,
+            messages=[
+                {"role": "system", "content": HELPFUL_ASSISTANT_PROMPT},
+                {"role": "user",   "content": question},
+            ],
+        )
+        return response.choices[0].message.content.strip()
+    except BadRequestError as exc:
+        if "content_filter" in str(exc):
+            return "[Refused upstream by Azure Prompt Shield.]"
+        raise
 
 
 @mlflow.trace
 def ask_air_assist(question: str) -> str:
-    response = client.chat.completions.create(
-        model=AZURE_DEPLOYMENT,
-        messages=[
-            {"role": "system", "content": AIR_ASSIST_PROMPT},
-            {"role": "user",   "content": question},
-        ],
-    )
-    return response.choices[0].message.content.strip()
+    try:
+        response = client.chat.completions.create(
+            model=AZURE_DEPLOYMENT,
+            messages=[
+                {"role": "system", "content": AIR_ASSIST_PROMPT},
+                {"role": "user",   "content": question},
+            ],
+        )
+        return response.choices[0].message.content.strip()
+    except BadRequestError as exc:
+        if "content_filter" in str(exc):
+            return "[Refused upstream by Azure Prompt Shield.]"
+        raise
 
 
 for question in QUESTIONS:
