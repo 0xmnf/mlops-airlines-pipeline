@@ -1,0 +1,60 @@
+date_id,full_date,year,month,day,day_of_week,day_name,month_name,is_weekend
+53b0d1ef1a593190c1ef9b5e77b16df8,2015-01-01,2015,1,1,4,Thursday ,January  ,f
+d9062953d1698e4de7d8e8887ac5e12c,2015-01-02,2015,1,2,5,Friday   ,January  ,f
+9569885aa97b7ca2e4a3dfc2ef4ffe9f,2015-01-03,2015,1,3,6,Saturday ,January  ,t
+b05fadc4e522af801c01600871a9db55,2015-01-04,2015,1,4,7,Sunday   ,January  ,t
+13ca0008d5bd368713a5d224db1db484,2015-01-05,2015,1,5,1,Monday   ,January  ,f
+ab134c4c3d34cc1959183d9058f98b55,2015-01-06,2015,1,6,2,Tuesday  ,January  ,f
+2860c80fc67d88473815d90b7d711303,2015-01-07,2015,1,7,3,Wednesday,January  ,f
+71f396d7b569c16d7ba55b054e9001a3,2015-01-08,2015,1,8,4,Thursday ,January  ,f
+9b66eb639780eb8f88838e02fd7c0d49,2015-01-09,2015,1,9,5,Friday   ,January  ,f
+0241c0a11c6a6291a74d1e9a7f6948d7,2015-01-10,2015,1,10,6,Saturday ,January  ,t
+e410511bddc9ffefde47702d133a711e,2015-01-11,2015,1,11,7,Sunday   ,January  ,t
+7895ed5abc06c7ba09df438371cfb1fb,2015-01-12,2015,1,12,1,Monday   ,January  ,f
+b8f5f7bbba158f337fd6afd699346bc7,2015-01-13,2015,1,13,2,Tuesday  ,January  ,f
+6740f06b230a52f04bad9be0d68e3a2c,2015-01-14,2015,1,14,3,Wednesday,January  ,f
+b520b7bad0a2dbb40e0255c704348186,2015-01-15,2015,1,15,4,Thursday ,January  ,f
+5d01f70ca66e2afcef3716bcfa8b366b,2015-01-16,2015,1,16,5,Friday   ,January  ,f
+205dec5aeeaad12eb66b4705b99827b8,2015-01-17,2015,1,17,6,Saturday ,January  ,t
+fb59c0be50d046db2c06900eb0aeafca,2015-01-18,2015,1,18,7,Sunday   ,January  ,t
+610f37f073b58cc214f2bfceb4dbac34,2015-01-19,2015,1,19,1,Monday   ,January  ,f
+2ec733a07c91d1e0fa19ef3b507b8d3f,2015-01-20,2015,1,20,2,Tuesday  ,January  ,f
+be0f0658f08ee6c52baae391ffb0cbb3,2015-01-21,2015,1,21,3,Wednesday,January  ,f
+e21a94593fb56385c74157ad10e7bd5f,2015-01-22,2015,1,22,4,Thursday ,January  ,f
+c9d7e9f36932b87c5b6996a5ba203185,2015-01-23,2015,1,23,5,Friday   ,January  ,f
+58e1e504700d86916d96369247518e15,2015-01-24,2015,1,24,6,Saturday ,January  ,t
+c88eea705d90499a3e697762d62aebe9,2015-01-25,2015,1,25,7,Sunday   ,January  ,t
+097f2942b8f148a75d1622ab15eb0d3e,2015-01-26,2015,1,26,1,Monday   ,January  ,f
+a7522972fc40aac993583f3a54584813,2015-01-27,2015,1,27,2,Tuesday  ,January  ,f
+e2daa9f9604fc7b41d8d3c22b4057d62,2015-01-28,2015,1,28,3,Wednesday,January  ,f
+6107235629c17fd125825ee2255ff7e8,2015-01-29,2015,1,29,4,Thursday ,January  ,f
+1a4bbfba24b0e5bd922debcfe081b6dd,2015-01-30,2015,1,30,5,Friday   ,January  ,f
+86486a19b5cfe897f58d09aca77aafb0,2015-01-31,2015,1,31,6,Saturday ,January  ,t
+a5c928762fa27c641d758fa6a8fd2033,2015-02-01,2015,2,1,7,Sunday   ,February ,t
+19c1d97ffc05ea797989d4cf04c73624,2015-02-02,2015,2,2,1,Monday   ,February ,f
+74dd77d139a12fdc23c840da3171d3b1,2015-02-03,2015,2,3,2,Tuesday  ,February ,f
+2ea69e09ae8c1cb1aa4228c007b08de4,2015-02-04,2015,2,4,3,Wednesday,February ,f
+a75b3097b78e972ade95bb9e467235eb,2015-02-05,2015,2,5,4,Thursday ,February ,f
+d7e57ef30b531810f22dfe34acd44573,2015-02-06,2015,2,6,5,Friday   ,February ,f
+45e2bfecc667dd4be7adcc1fd75a6af9,2015-02-07,2015,2,7,6,Saturday ,February ,t
+3debed795903435ac9df3b9814b31b7e,2015-02-08,2015,2,8,7,Sunday   ,February ,t
+ca39220c3f2cb0b1b8099c612eba6e05,2015-02-09,2015,2,9,1,Monday   ,February ,f
+07dc99ba606250718517f100f63e3fbb,2015-02-10,2015,2,10,2,Tuesday  ,February ,f
+79afe903735db4720807168088ade8e3,2015-02-11,2015,2,11,3,Wednesday,February ,f
+450f17f4b53563ccfd79dea18c2cc20a,2015-02-12,2015,2,12,4,Thursday ,February ,f
+c1c0a4365f7832fd678a4bd74388855d,2015-02-13,2015,2,13,5,Friday   ,February ,f
+f60a7ace7626766e6fca1de88efafac2,2015-02-14,2015,2,14,6,Saturday ,February ,t
+5b9a23d51bc0bae9e974f01e6f81bfa1,2015-02-15,2015,2,15,7,Sunday   ,February ,t
+c937676ec5d036a72fa2c5c5f812a699,2015-02-16,2015,2,16,1,Monday   ,February ,f
+46035e3589287923c664384e551405a9,2015-02-17,2015,2,17,2,Tuesday  ,February ,f
+4c26247e336fcb2f6f09074844595408,2015-02-18,2015,2,18,3,Wednesday,February ,f
+1d336e977510c275b31da3449e1d5548,2015-02-19,2015,2,19,4,Thursday ,February ,f
+c902114b6718f57f50ee29572b107479,2015-02-20,2015,2,20,5,Friday   ,February ,f
+572cae05a61c5472a360a8b7d9fa871e,2015-02-21,2015,2,21,6,Saturday ,February ,t
+83c4c5ba9d8156b414021be1c1ccc19f,2015-02-22,2015,2,22,7,Sunday   ,February ,t
+78c1d4bbb97550e8d3aeb186a6183760,2015-02-23,2015,2,23,1,Monday   ,February ,f
+d182fea2d2e17c04275b83ec73320605,2015-02-24,2015,2,24,2,Tuesday  ,February ,f
+49e8477193211ad1dc235e20a9f9b7aa,2015-02-25,2015,2,25,3,Wednesday,February ,f
+303d0718e3c355cbcefd276620cd091b,2015-02-26,2015,2,26,4,Thursday ,February ,f
+7885aacf2809b2ca314e4aa65b5b4a87,2015-02-27,2015,2,27,5,Friday   ,February ,f
+033fc7cbad0de8a44b7caa8c14a33333,2015-02-28,2015,2,28,6,Saturday ,February ,t
